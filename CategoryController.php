@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use App;
 use DB;
 use Cart;
-use App\Entities\AttributeValue;
-use App\Entities\Category;
-use App\Entities\Product;
+use App\Models\AttributeValue;
+use App\Models\Category;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
